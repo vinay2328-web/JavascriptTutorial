@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code in Javascript</title>
+    <style>
+        .hide {
+            display: none;
+        }
+        .spacer {
+            padding: 10px;
+        }
+
+        input,
+        textarea {
+            width: 320px;
+            padding: 8px;
+            border: 1px solid #d0d0d0;
+            display: block;
+            margin: 3px 0px;
+        }
+
+        textarea {
+            
+            height: 80px;
+            resize: none;
+        }
+
+        label {
+            padding: 5px 0px 2px 0px;
+            display: block;
+            text-transform: capitalize;
+            font-size: 1.1em;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #666;
+            letter-spacing: 2px;
+        }
+
+        button {
+            padding: 8px;
+            text-align: center;
+            border: 1px solid rgb(90, 95, 145);
+            background-color: rgba(0, 128, 255, 1);
+            color: #fff;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            font-size: 1.1em;
+            font-weight: bold;
+            font-family: 'Arial Narrow', Arial, sans-serif;
+            cursor: pointer;
+            border-radius: 4px;
+            margin: 8px 0px 0px;
+            letter-spacing: 1px;
+        }
+        .notesCard {
+            display: inline-block;
+            width: 300px;
+            min-height: 100px;
+            border:1px solid #d0d0d0;
+            background-color: #fcfcfc;
+            padding: 10px;
+            margin: 5px 3px;
+            border-radius: 5px 5px 0px 0px;
+            box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .notesCard h3 {
+            font-size: 0.8rem;
+            color:#363636;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 10px;
+            text-align: right;
+        }
+        .notesCard h2 {
+            font-size: 1.2em;
+            color:#0e0e0e;
+            letter-spacing: 1px;
+            line-height: 10px;
+        }
+        .notesCard p {
+            font-size: 16px;
+            color:#1e1e1e;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="heading" class="h1Class h2Class h3Class hide">Welcome to Code with Vinay</h1>
+        <div id="myFirst" class="child red hide" id="first">
+            <ul class="mylist" id="mylist">
+                <li class="myUlist" id="fList">List 1</li>
+                <li class="myUlist">List 11</li>
+                <li class="myUlist" id="mList">List 111</li>
+                <li class="myUlist">List 1111</li>
+                <li class="myUlist" id="lList">List 11111</li>
+            </ul>
+        </div>
+        <div class="child hide">Child 2</div>
+        <div class="child red hide">Child 3</div>
+        <div class="child hide">Child 4</div><br /><br />
+        <form action="none.html" method="POST" class="hide">
+            <a href="//google.com">Google 1</a><br />
+            <a href="#1">Google 2 </a><br />
+            <a href="#2">Google 3</a><br />
+            <a href="#3">Google 4</a><br /><br />
+            <input type="text" name="Hello" id="">
+            <button type="submit" id="btn" class="btnNo">Submit</button>
+            <!-- <input id="btn" type="button" value="Submit"> -->
+        </form>
+        <form action="javascript:void(0)">
+            <div class="spacer hide">
+                <label style="display: block;">User</label>
+                <input type="text" id="addUser" style="display: block;" />
+                <label>Title</label>
+                <input type="text" id="addTitle" />
+                <label>Note</label>
+                <textarea id="addTxt"></textarea>
+                <button type="button" id="addNotes" class="btnNo">Add Note</button>
+                <hr>
+            </div>
+        </form>
+        
+        <div id="notes" class="spacer hide"></div>
+    </div><br><br>
+    <div class="imgContainer hide">
+        <img src="/sources/img/1.jpg" alt="" width="100px" height="100px">
+        <img src="/sources/img/2.jpg" alt="" width="100px" height="100px">
+        <img src="/sources/img/3.jpg" alt="" width="100px" height="100px">
+        <img src="/sources/img/4.jpg" alt="" width="100px" height="100px">
+        <img src="/sources/img/5.jpg" alt="" width="100px" height="100px">
+    </div><br><br>
+    <!-- <a href="https://www.python.com">python</a>
+    <a href="https://www.google.com/web-python">Google Python</a>
+    <a href="https://www.abs.org/web-html-1">Web HTML 1</a>
+    <a href="https://www.abs.org/web-html-2">Web HTML 2</a>
+    <a href="https://www.python.com/web-python">Python - Web</a>
+    <a href="https://www.google.com/asb">Google - ASB</a> -->
+    <!-- <script src="/sources/scripts/webLayout.js"></script> -->
+    <!-- <script src="sources/scripts/elementSelectors.js"></script> -->
+    <!-- <script src="sources/scripts/removeReplaceEvents.js"></script> -->
+    <!-- <script src="sources/scripts/eventsAndeventsObjects.js"></script> -->
+    <!-- <script src="sources/scripts/pageCrawler.js"></script> -->
+    <!-- <script src="sources/scripts/localAndSessionStorage.js"></script> -->
+    <!-- <script src="sources/scripts/editableDivs.js"></script> -->
+    <!-- <script src="sources/scripts/magicNotesMaking.js"></script> -->
+    <!-- <script src="sources/scripts/mathObject.js"></script> -->
+    <!-- <script src="sources/scripts/DateTime.js"></script> -->
+    <!-- <script src="sources/scripts/ObjectConstructors.js"></script> -->
+    <!-- <script src="sources/scripts/Prototype.js"></script> -->
+    <!-- <script src="sources/scripts/PrototypeInheritance.js"></script> -->
+    <!-- <script src="sources/scripts/ES6ClassesAndInheritance.js"></script> -->
+    <script src="sources/scripts/LibraryClassAssginment.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+[
+    {
+        "word": "example",
+        "results": [
+            {
+                "definition": "a representative form or pattern",
+                "partOfSpeech": "noun",
+                "examples": [
+                    "I profited from his example"
+                ]
+            },
+            {
+                "definition": "something to be imitated",
+                "partOfSpeech": "noun",
+                "examples": [
+                    "Take this exmple to solve her problems"
+                ]
+            },
+            {
+                "definition": "an occurrence of something",
+                "partOfSpeech": "noun",
+                "examples": [
+                    "but there is always the famous example of the Smiths"
+                ]
+            },
+            {
+                "definition": "an item of information that is typical of a class or group",
+                "partOfSpeech": "noun",
+                "examples": [
+                    "this patient provides a typical example of the syndrome",
+                    "there is an example on page 10"
+                ]
+            },
+            {
+                "definition": "punishment intended as a warning to others",
+                "partOfSpeech": "noun",
+                "examples": [
+                    "they decided to make an example of him"
+                ]
+            },
+            {
+                "definition": "a task performed or problem solved in order to develop skill or understanding",
+                "partOfSpeech": "noun",
+                "examples": [
+                    "you must work the examples at the end of each chapter in the textbook"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sex",
+        "results": [
+            {
+                "definition": "the properties that distinguish organisms on the basis of their reproductive roles",
+                "partOfSpeech": "noun",
+                "examples": [
+                    "she didn't want to know the sex of the foetus"
+                ]
+            },
+            {
+                "definition": "activities associated with sexual intercourse",
+                "partOfSpeech": "noun",
+                "examples": [
+                    "they had sex in the back seat"
+                ]
+            },
+            {
+                "definition": "all of the feelings resulting from the urge to gratify sexual impulses",
+                "partOfSpeech": "noun",
+                "examples": [
+                    "he wanted a better sex life",
+                    "the film contained no sex or violence"
+                ]
+            },
+            {
+                "definition": "stimulate sexually",
+                "partOfSpeech": "verb"
+            },
+            {
+                "definition": "either of the two categories (male or female) into which most organisms are divided",
+                "partOfSpeech": "noun",
+                "examples": [
+                    "the war between the sexes"
+                ]
+            },
+            {
+                "definition": "tell the sex (of young chickens)",
+                "partOfSpeech": "verb"
+            }
+        ]
+    }
+]
