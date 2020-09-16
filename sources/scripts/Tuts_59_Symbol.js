@@ -24,5 +24,18 @@ const k2 = Symbol('identifire for k2');
 
 myObj[k1] = "Vinay";
 myObj[k2] = "Pallavi";
+myObj['name'] = 'Good people';
+myObj[4] = 'Good int';
 
 console.log('myObj is: ', myObj);
+console.log('myObj is: ', myObj[k1]);
+console.log('myObj is: ', myObj[k2]);
+console.log('myObj is: ', myObj.k2); // !! Alert !! :- Cannot do this to get Pallvali because it is same as myObj["k2"]
+
+// Symbols are ignored in for-in loops
+for(key in myObj){
+    console.log('Symbols are in for-in loop: ', key, myObj[key]);
+}
+
+// Convertion: Object to string convertion
+console.log('Obj to String convertion: ', JSON.stringify(myObj)); // Symbols are cannot be converted
