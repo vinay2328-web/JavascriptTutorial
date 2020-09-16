@@ -1,2 +1,6 @@
 This is deployment branch
-Branch jsSymbol: Created this branch for #Tuts-59: Symbols in Javascript
+=================================================================================================
+-->Created from:  jsDeployment
+***Branch Name:   jsSymbol
+***Branch Reason: Created this branch for #Tuts-59: Symbols in Javascript
+=================================================================================================
