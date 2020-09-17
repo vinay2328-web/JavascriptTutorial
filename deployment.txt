@@ -1,6 +1,6 @@
 This is deployment branch
 =================================================================================================
 -->Created from:  jsDeployment
-***Branch Name:   jsSymbol
-***Branch Reason: Created this branch for #Tuts-59: Symbols in Javascript
+***Branch Name:   jsDestructing
+***Branch Reason: Created this branch for #Tuts-60: Destructuring in Javascript
 =================================================================================================
