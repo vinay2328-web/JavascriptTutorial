@@ -1,6 +1,6 @@
 This is deployment branch
 =================================================================================================
 -->Created from:  jsDeployment
-***Branch Name:   jsClock
-***Branch Reason: Created this branch for #Tuts-61: Creating clock in Javascript
+***Branch Name:   jsPostMan
+***Branch Reason: Created this branch for #Tuts-62: Creating PostMaster website for GET/POST requests
 =================================================================================================
