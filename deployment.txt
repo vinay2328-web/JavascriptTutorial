@@ -1,6 +1,6 @@
 This is deployment branch
 =================================================================================================
 -->Created from:  jsDeployment
-***Branch Name:   jsPostMan
-***Branch Reason: Created this branch for #Tuts-62: Creating PostMaster website for GET/POST requests
+***Branch Name:   jsDragNdrop
+***Branch Reason: Created this branch for #Tuts-63: Creating Drag and Drop feature for website
 =================================================================================================
