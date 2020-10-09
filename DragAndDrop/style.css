@@ -14,8 +14,8 @@ html, body {
 }
 .whiteBox {
     background-color: #fff;
-    width: 155px;
-    height: 155px;
+    width: 48%;
+    height: 50vh;
     display: inline-block;
     margin:10px;
     border:2px solid rgb(11, 44, 105);
